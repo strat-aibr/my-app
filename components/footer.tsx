@@ -44,11 +44,11 @@ export default function Footer() {
             <h3 className="text-sm font-medium">Conecte-se</h3>
             <div className="flex space-x-4">
               <Link
-                href="https://github.com/amanesoft"
+                href="https://www.instagram.com/strat.ai"
                 className="text-muted-foreground transition-colors hover:text-primary"
               >
-                <Github className="h-5 w-5" />
-                <span className="sr-only">GitHub</span>
+                <Instagram className="h-5 w-5" />
+                <span className="sr-only">Instragram</span>
               </Link>
               <Link
                 href="https://twitter.com/amanesoft"
@@ -58,7 +58,7 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
-                href="https://linkedin.com/company/amanesoft"
+                href="https://www.linkedin.com/company/strataibr/"
                 className="text-muted-foreground transition-colors hover:text-primary"
               >
                 <Linkedin className="h-5 w-5" />
@@ -70,7 +70,7 @@ export default function Footer() {
       </div>
       <div className="container border-t py-6">
         <p className="text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Amane Soft, Inc. Todos os direitos reservados.
+          © {new Date().getFullYear()} Strat Ai. Todos os direitos reservados.
         </p>
       </div>
     </footer>
