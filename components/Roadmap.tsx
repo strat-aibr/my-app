@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { useState } from "react"
 import { motion } from "framer-motion"
@@ -42,9 +42,9 @@ export default function Roadmap() {
 
   return (
     <section className="py-24 bg-gradient-to-b from-background to-background/80">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">Roadmap de Implementação de IA</h2>
-        <div className="relative">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
+        <h2 className="text-4xl font-bold text-center mb-16">Roadmap de Implementação de IA</h2>
+        <div className="relative max-w-5xl mx-auto">
           {/* Linha de conexão */}
           <div className="absolute top-1/2 left-0 w-full h-1 bg-gradient-to-r from-primary/20 via-primary to-primary/20 transform -translate-y-1/2" />
 
@@ -80,7 +80,7 @@ export default function Roadmap() {
                 />
 
                 {/* Ícone de seta */}
-                {index < steps.length - 1 && (
+                {index < steps.length - 1 && (index + 1) % 3 !== 0 && (
                   <motion.div
                     className="absolute -right-4 top-1/2 transform -translate-y-1/2 z-20"
                     initial={{ x: 0 }}

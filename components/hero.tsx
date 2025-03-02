@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import { links } from "@/config/links"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -8,7 +10,7 @@ export default function Hero() {
         <h1 className="bg-gradient-to-br from-foreground from-30% via-foreground/90 to-foreground/70 bg-clip-text text-4xl font-bold tracking-tight text-transparent sm:text-5xl md:text-6xl lg:text-7xl">
           Inove Mais Rápido com
           <br />
-          Amane Soft
+          Strat AI
         </h1>
         <p className="mx-auto max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
           Capacitando empresas com soluções de software de ponta. De análises baseadas em IA a integrações perfeitas com
@@ -17,11 +19,13 @@ export default function Hero() {
       </div>
       <div className="flex gap-4">
         <Button size="lg">
-          Explorar Soluções
-          <ArrowRight className="ml-2 h-4 w-4" />
+          <Link href={links.getStarted}>
+          Converse com nossa I.A
+            <ArrowRight className="ml-2 h-4 w-4" />
+          </Link>
         </Button>
         <Button variant="outline" size="lg">
-          Agendar uma Demo
+          <Link href={links.tryItFree}>Marcar reunião</Link>
         </Button>
       </div>
     </section>
