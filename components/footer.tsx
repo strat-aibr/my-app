@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Twitter, Linkedin } from "lucide-react"
+import { Instagram, Linkedin, Youtube } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -48,14 +48,7 @@ export default function Footer() {
                 className="text-muted-foreground transition-colors hover:text-primary"
               >
                 <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instragram</span>
-              </Link>
-              <Link
-                href="https://twitter.com/amanesoft"
-                className="text-muted-foreground transition-colors hover:text-primary"
-              >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+                <span className="sr-only">Instagram</span>
               </Link>
               <Link
                 href="https://www.linkedin.com/company/strataibr/"
@@ -64,13 +57,20 @@ export default function Footer() {
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
+              <Link
+                href="https://youtube.com/amanesoft"
+                className="text-muted-foreground transition-colors hover:text-primary"
+              >
+                <Youtube className="h-5 w-5" />
+                <span className="sr-only">YouTube</span>
+              </Link>
             </div>
           </div>
         </div>
       </div>
       <div className="container border-t py-6">
         <p className="text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Strat Ai. Todos os direitos reservados.
+          © {new Date().getFullYear()} Amane Soft, Inc. Todos os direitos reservados.
         </p>
       </div>
     </footer>
