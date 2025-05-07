@@ -6,14 +6,29 @@ export const clients = [
   },
   {
     id: "2",
-    name: "Cliente 2",
-    logo: "https://www.tesla.com/themes/custom/tesla_frontend/assets/logos/logo-energy-red.svg",
+    name: "Medicina Reprodutiva",
+    logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/6.png",
   },
   {
     id: "3",
-    name: "Protal Segurança",
-    logo: "https://www.protal.com.br/wp-content/uploads/2023/11/SITE-TOPO.png.webp",
+    name: "Quatenus",
+    logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/5.png",
   },
+  {
+    id: "4",
+    name: "FTV",
+    logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/4.png",
+  },
+   {
+    id: "5",
+    name: "Top Seguros",
+    logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/3.png",
+  },
+    {
+    id: "6",
+    name: "Summit Academia",
+    logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/2.png",
+  } 
   // ... adicione mais clientes conforme necessário
 ]
 
