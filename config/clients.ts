@@ -28,6 +28,11 @@ export const clients = [
     id: "6",
     name: "Summit Academia",
     logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/2.png",
+  },
+     {
+    id: "7",
+    name: "Vida Probióticos",
+    logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/Design-sem-nome-1.png",
   } 
   // ... adicione mais clientes conforme necessário
 ]
