@@ -2,7 +2,7 @@ export const clients = [
   {
     id: "1",
     name: "Contato Indenizações",
-    logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/1.webp",
+    logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/Design-sem-nome.png",
   },
   {
     id: "2",
