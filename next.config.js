@@ -11,6 +11,8 @@ const nextConfig = {
         "www.tesla.com",
         "www.spacex.com",
         "www.protal.com.br",
+        "lp.strat.tec.br",
+
       ],
     },
   }
