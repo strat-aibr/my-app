@@ -2,7 +2,7 @@ export const clients = [
   {
     id: "1",
     name: "Cliente 1",
-    logo: "https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg",
+    logo: "https://lp.strat.tec.br/wp-content/uploads/2025/05/1.png",
   },
   {
     id: "2",
