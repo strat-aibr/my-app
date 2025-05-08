@@ -16,7 +16,7 @@ export const links = {
   aiAnalytics: "https://redirect.metricaas.com.br/?userid=174&id=166",
   cloudServices: "https://redirect.metricaas.com.br/?userid=174&id=166",
   about: "https://redirect.metricaas.com.br/?userid=174&id=166",
-  careers: "https://n8nwebhook.strat.tec.br/form/vagas",
+  careers: "https://form.jotform.com/251136334829054",
 
   // Redes sociais
   instagram: "https://www.instagram.com/strat.ai/",
