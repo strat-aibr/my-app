@@ -35,7 +35,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://n8nwebhook.strat.tec.br/form/vagas" className="text-muted-foreground transition-colors hover:text-primary">
+                <Link href="https://form.jotform.com/251136334829054" className="text-muted-foreground transition-colors hover:text-primary">
                   Carreiras
                 </Link>
               </li>
